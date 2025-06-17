@@ -1,5 +1,5 @@
 {% set name = "delve" %}
-{% set version = "1.24.2" %}
+{% set version = "1.25.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/go-delve/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: c26cce64c4cbef25b7652708cda198e9c081ea3abfbe411ed8048e131dba6275
+  sha256: f9d95d98103a2c72ff4d3eacbb419407ad2624e8205b7f45de375b17ad7f8d27
 
 build:
   number: 0
